@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+	<meta charset="utf-8">
+	<title>Meu currículo</title>
+</head>
+
+<body>
+	
+<header>
+	<p style="font-family:times new roman;">
+		<center><font size="7">Currículo</font></p></center>
+	
+<hr>
+
+	<center>
+		<font size="6">Introdução:</font> <br>
+		<font size="4">Olá!, meu nome é Felipe Yukio Igaki, atualmente estou estudando para me tornar um desenvolvedor web e esta é minha primeira tentativa montando um currículo usando html!</font>
+   </center>
+
+<hr>
+
+	<center>
+		<font size="6">
+			Informações Pessoais:
+		</font>
+			 <li>20 anos</li>
+			  <li> Mogi das Cruzes, São Paulo</li>
+			   <li> Email: felipeyukio4@gmail.com</li>
+			    <li> Telefone: (11)95405-9873</li>
+<hr>
+
+	<center>
+		<font size="6">
+			Formação Acadêmica:
+		</font>
+			<li> Ilson Gomes </li>
+			Período: 2017 até 2019 <br>
+			Ensino médio completo <br>
+		</center> 
+<hr>
+
+	<center>
+		<font size="6">
+			Experiência Profissional:
+		</font>
+			<li>Carbee</li>
+			Cargo: Higienizador de automóveis<br>
+			Período: Janeiro/2021 até Abril/2021<br>
+			Principais atividades: Responsável por realizar higienização em automóveis, atendimento ao
+cliente, auxílio na divulgação da empresa, colaboração em gestão de equipe;<br>
+			<li>16° Registro de Imóveis da Capital – São Paulo</li>
+			Cargo: Jovem Aprendiz<br>
+			Período: Julho/2021 até Novembro/2022<br>
+			Principais atividades: Responsável por editar e formatar documentos, conferir impressões,
+atender chamadas telefônicas, conferir títulos, editar tabelas no Excel, esclarecer dúvidas para
+clientes, auxiliar líderes de setor, revisão de documentos impressos;<br>
+			<li>Lú Salgados</li>
+			Cargo: Entregador<br>
+			Período: Janeiro/2023 até Abril/2023<br>
+			Principais atividades: Responsável por realizar entregas, atendimento ao cliente;<br>
+	</center>
+
+<hr>
+	
+	<center>
+		<font size="6">
+			Formação Complementar:
+		</font>
+		<li> AMOA - Associação Mogiana Oficina dos Aprendizes </li>
+		Período: Março/2018 até Novembro/2018<br>
+		Projeto voltado ao auxílio de jovens para o mercado de trabalho<br>
+		<li> Introdução à liguagem HTML</li>
+		Curso de HTML para iniciantes
+	</center>
+</header>
+</body>
+</html>
+
+
+
+			        	
+
+
+
+
+	
+
+
