@@ -1,0 +1,30 @@
+Algoritmo "inicial_final"
+
+//Faça um algoritmo que escreva na tela os números de um número inicial a um número final.
+// Os números inicial e final devem ser informados pelo usuário;//
+
+Var
+
+   inicial, final, n : inteiro
+
+
+Inicio
+
+      escreval("digite o número inicial: ")
+      leia(inicial)
+      escreval("digite o número final: ")
+      leia(final)
+
+      n <- 0
+
+      enquanto n < final faca
+      n <- n + 1
+      escreval(n)
+      fimenquanto
+
+      escreval("valor inicial: ", inicial)
+      escreval("valor final: ", final)
+
+
+
+Fimalgoritmo
