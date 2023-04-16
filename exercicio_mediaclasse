@@ -1,0 +1,29 @@
+Algoritmo "media_classe"
+//Em uma turma há 10 alunos. Cada aluno tem 2 notas.
+//Um professor precisa calcular a média das duas notas
+//de cada aluno. Crie um programa que resolve este
+//problema.
+Var
+
+   nota1, nota2, media, i : real
+
+
+Inicio
+
+
+      i <- 0
+
+      
+      enquanto i < 10 faca
+      escreval("digite a primeira nota: ")
+      leia(nota1)
+      escreval("digite a segunda nota: ")
+      leia(nota2)
+      media <- (nota1+nota2)/2
+      escreval("a media do aluno é: ", media)
+      i <- i + 1
+      fimenquanto
+      
+
+
+Fimalgoritmo
