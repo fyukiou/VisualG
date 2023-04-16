@@ -1,0 +1,31 @@
+Algoritmo "vetor"
+//Fazer um programa para ler um número inteiro
+//positivo N (máximo = 10), depois ler N números quaisquer e armazená-los em um vetor. Em seguida,
+//mostrar na telatodos elementos do vetor.
+
+Var
+
+  n, i : inteiro
+  vet : vetor [0..9] de inteiro
+
+
+Inicio
+
+      escreval("quantos numeros irá digitar? ")
+      leia(n)
+      
+      para i de 0 ate n - 1 faca
+       escreva("digite um numero: ")
+        leia(vet[i])
+      fimpara
+      
+      escreva("numeros negativos: ")
+
+      para i de 0 ate n - 1 faca
+       se vet[i] < 0 entao
+        escreval(vet[i])
+       fimse
+      fimpara
+
+
+Fimalgoritmo
