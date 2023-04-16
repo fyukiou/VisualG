@@ -1,0 +1,31 @@
+Algoritmo "numero_impar"
+
+ //Escrever um algoritmo que gera e escreve os números
+ //ímpares entre 100 e 200//
+
+Var
+
+      y, i : inteiro
+
+
+Inicio
+
+      escreval("os número ímpares entre 100 e 200 são: ")
+      
+
+      y <- 200
+      i <- 100
+      
+      enquanto i < y faca
+         i <- i + 1
+        se i % 2 = 1 entao
+       escreva(i)
+      senao
+
+      fimse
+      fimenquanto
+
+
+
+
+Fimalgoritmo
