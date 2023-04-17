@@ -1,0 +1,62 @@
+Algoritmo "altura"
+
+//Fazer um programa para ler nome, idade e altura de N pessoas, conforme exemplo. Depois, mostrar na
+//tela a altura média das pessoas, e mostrar também a porcentagem de pessoas com menos de 16 anos,
+//bem como os nomes dessas pessoas caso houver.
+
+
+Var
+
+   i, n, cont : inteiro
+   media, porcentagem : real
+   nome : vetor [0..9] de caractere
+   idade : vetor [0..9] de inteiro
+   altura : vetor [0..9] de real
+
+Inicio
+
+
+   escreval("quantas pessoas ira digitar? ")
+   leia(n)
+   
+   para i de 0 ate n-1 faca
+   escreva("Digite o", i+1, "º", " nome: ")
+   leia(nome[i])
+   escreva("Digite a", i+1, "º", " idade: ")
+   leia(idade[i])
+   escreva("Digite a", i+1, "º", " altura: ")
+   leia(altura[i])
+   fimpara
+   
+   media <- 0
+   
+   para i de 0 ate n-1 faca
+   media <- altura[i] + media
+   fimpara
+   
+   media <- media / n
+
+   escreval
+   escreval("A altura media é: ", media)
+   
+   porcentagem <- 0
+   cont <- 0
+   
+   para i de 0 ate n-1 faca
+    se idade[i] < 16 entao
+    cont <- cont +1
+    fimse
+   fimpara
+   
+   porcentagem <- cont * 100 / n
+   
+   escreval("A porcentagem de pessoas com menos de 16 anos e: ", porcentagem:3:1, "%")
+   
+   para i de 0 ate n-1 faca
+   se idade[i] < 16 entao
+   escreval(nome[i])
+   fimse
+   fimpara
+
+
+Fimalgoritmo
